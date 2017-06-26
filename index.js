@@ -16,7 +16,7 @@ function req() {
         if (!error && response.statusCode == 200) {
             console.log(new Date().toString() + ' > success!');
         } else {
-            console.log('error' + response.statusCode);
+            console.log('error', response);
         }
     });
 }
